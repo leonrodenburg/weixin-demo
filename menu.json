@@ -1,0 +1,47 @@
+{
+  "button": [
+    {
+      "type": "click",
+      "name": "Service",
+      "key": "linkbuttons",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "Show the floorplan",
+          "key": "floorplan"
+        },
+        {
+          "type": "click",
+          "name": "Make a VIP appointment",
+          "key": "vip"
+        },
+        {
+          "type": "click",
+          "name": "Christmas @ Bijenkorf",
+          "key": "christmas"
+        },
+        {
+          "type": "click",
+          "name": "我需要汉语导购",
+          "key": "mandarin"
+        },
+        {
+          "type": "view",
+          "name": "Open the webshop",
+          "url": "https://www.xebia.com"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "sub_button": [
+        {
+          "type": "scancode_waitmsg",
+          "name": "Scan a product",
+          "key": "rselfmenu_0_0",
+          "sub_button": []
+        }
+      ]
+    }
+  ]
+}

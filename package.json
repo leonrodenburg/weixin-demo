@@ -1,0 +1,13 @@
+{
+  "name": "weixin",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-xml-bodyparser": "^0.3.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
